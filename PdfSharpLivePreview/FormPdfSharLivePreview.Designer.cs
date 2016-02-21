@@ -80,7 +80,7 @@
             // splitContainer1.Panel2
             // 
             this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(992, 571);
+            this.splitContainer1.Size = new System.Drawing.Size(992, 516);
             this.splitContainer1.SplitterDistance = 380;
             this.splitContainer1.TabIndex = 0;
             // 
@@ -94,9 +94,9 @@
             this.preview.PageSize = ((PdfSharp.Drawing.XSize)(resources.GetObject("preview.PageSize")));
             this.preview.PageSizeF = new System.Drawing.Size(595, 842);
             this.preview.ShowScrollbars = false;
-            this.preview.Size = new System.Drawing.Size(380, 571);
+            this.preview.Size = new System.Drawing.Size(380, 516);
             this.preview.TabIndex = 0;
-            this.preview.ZoomPercent = 46;
+            this.preview.ZoomPercent = 45;
             // 
             // splitContainer2
             // 
@@ -112,8 +112,8 @@
             // splitContainer2.Panel2
             // 
             this.splitContainer2.Panel2.Controls.Add(this.textBox1);
-            this.splitContainer2.Size = new System.Drawing.Size(608, 571);
-            this.splitContainer2.SplitterDistance = 500;
+            this.splitContainer2.Size = new System.Drawing.Size(608, 516);
+            this.splitContainer2.SplitterDistance = 451;
             this.splitContainer2.TabIndex = 1;
             // 
             // editor
@@ -130,7 +130,7 @@
             this.editor.Name = "editor";
             this.editor.Paddings = new System.Windows.Forms.Padding(0);
             this.editor.SelectionColor = System.Drawing.Color.FromArgb(((int)(((byte)(50)))), ((int)(((byte)(0)))), ((int)(((byte)(0)))), ((int)(((byte)(255)))));
-            this.editor.Size = new System.Drawing.Size(608, 500);
+            this.editor.Size = new System.Drawing.Size(608, 451);
             this.editor.TabIndex = 0;
             this.editor.TextChanged += new System.EventHandler<FastColoredTextBoxNS.TextChangedEventArgs>(this.editor_TextChanged);
             // 
@@ -142,7 +142,7 @@
             this.textBox1.Multiline = true;
             this.textBox1.Name = "textBox1";
             this.textBox1.ReadOnly = true;
-            this.textBox1.Size = new System.Drawing.Size(608, 67);
+            this.textBox1.Size = new System.Drawing.Size(608, 61);
             this.textBox1.TabIndex = 0;
             // 
             // toolStrip1
@@ -258,7 +258,7 @@
             // tsmiAutoIntervalSec1
             // 
             this.tsmiAutoIntervalSec1.Name = "tsmiAutoIntervalSec1";
-            this.tsmiAutoIntervalSec1.Size = new System.Drawing.Size(126, 22);
+            this.tsmiAutoIntervalSec1.Size = new System.Drawing.Size(152, 22);
             this.tsmiAutoIntervalSec1.Tag = "1";
             this.tsmiAutoIntervalSec1.Text = "1 second";
             this.tsmiAutoIntervalSec1.Click += new System.EventHandler(this.tsmiAutoIntervalSec_Click);
@@ -268,30 +268,34 @@
             this.tsmiAutoIntervalSec2.Checked = true;
             this.tsmiAutoIntervalSec2.CheckState = System.Windows.Forms.CheckState.Checked;
             this.tsmiAutoIntervalSec2.Name = "tsmiAutoIntervalSec2";
-            this.tsmiAutoIntervalSec2.Size = new System.Drawing.Size(126, 22);
+            this.tsmiAutoIntervalSec2.Size = new System.Drawing.Size(152, 22);
             this.tsmiAutoIntervalSec2.Tag = "2";
             this.tsmiAutoIntervalSec2.Text = "2 seconds";
+            this.tsmiAutoIntervalSec2.Click += new System.EventHandler(this.tsmiAutoIntervalSec_Click);
             // 
             // tsmiAutoIntervalSec3
             // 
             this.tsmiAutoIntervalSec3.Name = "tsmiAutoIntervalSec3";
-            this.tsmiAutoIntervalSec3.Size = new System.Drawing.Size(126, 22);
+            this.tsmiAutoIntervalSec3.Size = new System.Drawing.Size(152, 22);
             this.tsmiAutoIntervalSec3.Tag = "3";
             this.tsmiAutoIntervalSec3.Text = "3 seconds";
+            this.tsmiAutoIntervalSec3.Click += new System.EventHandler(this.tsmiAutoIntervalSec_Click);
             // 
             // tsmiAutoIntervalSec4
             // 
             this.tsmiAutoIntervalSec4.Name = "tsmiAutoIntervalSec4";
-            this.tsmiAutoIntervalSec4.Size = new System.Drawing.Size(126, 22);
+            this.tsmiAutoIntervalSec4.Size = new System.Drawing.Size(152, 22);
             this.tsmiAutoIntervalSec4.Tag = "4";
             this.tsmiAutoIntervalSec4.Text = "4 seconds";
+            this.tsmiAutoIntervalSec4.Click += new System.EventHandler(this.tsmiAutoIntervalSec_Click);
             // 
             // tsmiAutoIntervalSec5
             // 
             this.tsmiAutoIntervalSec5.Name = "tsmiAutoIntervalSec5";
-            this.tsmiAutoIntervalSec5.Size = new System.Drawing.Size(126, 22);
+            this.tsmiAutoIntervalSec5.Size = new System.Drawing.Size(152, 22);
             this.tsmiAutoIntervalSec5.Tag = "5";
             this.tsmiAutoIntervalSec5.Text = "5 seconds";
+            this.tsmiAutoIntervalSec5.Click += new System.EventHandler(this.tsmiAutoIntervalSec_Click);
             // 
             // toolStripMenuItem2
             // 
@@ -325,7 +329,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(992, 596);
+            this.ClientSize = new System.Drawing.Size(992, 541);
             this.Controls.Add(this.splitContainer1);
             this.Controls.Add(this.toolStrip1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
